@@ -1,0 +1,5 @@
+Flask==0.12.1
+Flask-Ask==0.9.7
+Flask-Cors==2.1.2
+Jinja2==2.8
+virtualenv==15.1.0

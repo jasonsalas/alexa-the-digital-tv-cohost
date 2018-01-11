@@ -1,0 +1,7 @@
+RundownIntent what do we have on this week's show
+FindMoreIntent where can people go to find out more
+StarWarsIntent who's your favorite star wars character
+RideOrDieIntent what's your ride or die makeup product
+BestieIntent we're cool right
+ByeByeIntent take us home
+KUAMTVScheduleIntent when does {show} come on our channels

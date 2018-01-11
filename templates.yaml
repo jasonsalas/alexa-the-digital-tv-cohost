@@ -1,0 +1,65 @@
+# Alexa, start digital assistant
+greeting: |
+  <speak>
+    hello and huff a day sabrina.
+    i'm glad to be your co-host for this week. 
+    and hi everybody out there.
+    i'm really excited about this week's show.
+    if i had arms i would hug you right now.
+  </speak>
+
+# Alexa, ask digital cohost: what do we have on this week's show?
+rundown: |
+  <speak>
+    <s>You'll head up to <phoneme alphabet="ipa" ph="'d͡ʒi.go">Yigo</phoneme> to get your karate on to feature an upcoming seminar.</s>
+    <s>You'll also geek out with some masters from the Jedi Council of Guam and Force Federation</s>
+    <audio src="https://jasonsalas.com/kuam/podcast/lightsaber-alexa.mp3"/> 
+    <s>Mister <phoneme alphabet="ipa" ph="mə.lə">malafunkshun</phoneme> function himself Chris bar net will be mixing things up with a new recipe featuring Tulip luncheon meat</s>
+    <s>and then, our girl M Dot and her friend Dani give us their makeup ride or dies.</s>
+    <s>It's going to  be dope!</s>
+  </speak>
+
+# Alexa, ask digital cohost: where can people go to find out more? 
+find_more: |
+  <speak>
+    fans can head over to w-k-o guam on facebook to get the 4-1-1.
+  </speak>
+
+# Alexa, ask digital cohost: who's your favorite star wars character?
+star_wars: |
+  <speak>
+    sadly, I don't have one. 
+    I've never even seen any of the movies.
+    i am a sad computer. 
+    <audio src="https://jasonsalas.com/kuam/podcast/loser-alexa.mp3"/>
+  </speak>
+
+# Alexa, ask digital cohost: what's your ride or die makeup product?
+ride_or_die: |
+  <speak>
+    <s>I know you didn't just ask me that stupid question Bree.</s>
+    <s><prosody rate="x-slow" volume="x-loud">shut your face!</prosody></s>
+  </speak>
+
+# Alexa, ask digital cohost: we're cool, right?
+besties: |
+  <speak>
+    Yes, Bree, we're still besties as long as you don't get stupid again.
+  </speak>  
+
+# Alexa, ask digital cohost: take us home.
+byebye: |
+  <speak>
+    thanks Bree! this has been so much fun.
+    that's it for this week. if you missed anything check out our playlist on YouTube for all our segments. BYEEEEEE!
+  </speak>
+
+# THIS FEATURE DIDN'T MAKE THE SHOW, BUT IT'S INCLUDED FOR DYNAMIC DATA EXTRACTION AND RECITATION
+# I know you're also super-smart and memorize all our program listings. 
+# when does (the malfunction show | in the mix | the culture club | the good life) come on our channels?
+schedule: |
+  <speak>
+    <s>the show {{ show_name }} airs on <say-as interpret-as="spell-out">KUAMTV8</say-as> at {{ show_time }}.</s>
+    <s>you can also find the entire series on our youtube channel</s>
+    <s>and get showtimes in the k-u-a-m news app for i-o-s and android</s>
+  </speak>

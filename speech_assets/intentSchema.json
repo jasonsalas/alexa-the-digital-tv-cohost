@@ -1,0 +1,31 @@
+{
+	"intents" : [
+		{
+			"intent" : "RundownIntent"
+		}, {
+			"intent" : "Block1TeaseIntent"
+		}, {
+			"intent" : "StarWarsIntent"
+		}, {
+			"intent" : "RideOrDieIntent"
+		}, {
+			"intent" : "BestieIntent"
+		}, {
+			"intent" : "ByeByeIntent"
+		}, {
+			"intent" : "KUAMTVScheduleIntent",
+			"slots" : [{
+				"name" : "show",
+				"type" : "LIST_OF_SHOWS"
+			}]
+		}, {
+			"intent" : "AMAZON.StopIntent"
+		}, {
+			"intent" : "AMAZON.CancelIntent"
+		}, {
+			"intent" : "AMAZON.HelpIntent"
+		}, {
+			"intent" : "AMAZON.StartOverIntent"
+		}
+	]
+}
